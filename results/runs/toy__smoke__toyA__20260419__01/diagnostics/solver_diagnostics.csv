@@ -1,0 +1,7 @@
+date,strategy,converged,iterations_pg,iterations_newton,kkt_residual,fallback_used,active_free_dim,status,objective_value
+2026-04-19,EW,1,0,0,0.0,0,3,success,0.0
+2026-04-19,GMV,1,0,1,0.0,0,3,success,0.3333333333333333
+2026-04-19,CtR-only,1,1,1,0.0,0,3,success,0.000333333333335
+2026-04-19,MDP,1,1,1,1.8129866073473577e-10,0,3,success,-1.7317174742355441
+2026-04-19,CtB-only,1,1,1,0.0,0,3,success,0.0003333333333333333
+2026-04-19,Main,1,1,1,0.0,0,3,success,0.000333333333335
