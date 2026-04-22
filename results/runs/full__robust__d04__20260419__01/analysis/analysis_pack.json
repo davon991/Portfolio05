@@ -1,0 +1,18 @@
+{
+  "best_strategy": "EW",
+  "key_findings": [
+    "Interpret sharpe only after checking D_R / D_B / convergence / turnover.",
+    "Main should first be judged by mechanism and constraint behavior, not only by return."
+  ],
+  "metric_deltas_vs_erc": {
+    "dr_mean_delta_vs_ctr": 0.0051426598887069725,
+    "db_mean_delta_vs_ctr": -0.03043025934534669,
+    "turnover_mean_delta_vs_ctr": 0.01578417771262971
+  },
+  "recommended_figures": [
+    "fig_weights_latest",
+    "fig_dr_db_timeseries",
+    "fig_summary_metrics"
+  ],
+  "warnings": []
+}

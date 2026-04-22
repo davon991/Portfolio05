@@ -1,0 +1,25 @@
+run_id,main_strategy,benchmark_strategy,metric,null_hypothesis,alternative,p_one_sided,p_two_sided,reject_at_5pct
+full__main__test__20260419__01,Main,CtR-only,period_return,mean_diff = 0,mean_diff > 0,0.9704,0.0592,False
+full__main__test__20260419__01,Main,CtR-only,D_R,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtR-only,D_B,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,CtR-only,band_active,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtR-only,band_violation,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtR-only,turnover,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtB-only,period_return,mean_diff = 0,mean_diff > 0,0.13,0.26,False
+full__main__test__20260419__01,Main,CtB-only,D_R,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,CtB-only,D_B,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtB-only,band_active,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtB-only,band_violation,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,CtB-only,turnover,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,EW,period_return,mean_diff = 0,mean_diff > 0,0.9902,0.0196,False
+full__main__test__20260419__01,Main,EW,D_R,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,EW,D_B,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,EW,band_active,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,EW,band_violation,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,EW,turnover,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,GMV,period_return,mean_diff = 0,mean_diff > 0,0.1246,0.2492,False
+full__main__test__20260419__01,Main,GMV,D_R,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,GMV,D_B,mean_diff = 0,mean_diff < 0,0.0,0.0,True
+full__main__test__20260419__01,Main,GMV,band_active,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,GMV,band_violation,mean_diff = 0,mean_diff < 0,1.0,0.0,False
+full__main__test__20260419__01,Main,GMV,turnover,mean_diff = 0,mean_diff < 0,0.0164,0.0328,True
