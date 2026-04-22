@@ -1,0 +1,37 @@
+{
+  "run_id": "calibration__main__val__20260419__01__d11",
+  "run_type": "minimal_real",
+  "timestamp_utc": "2026-04-21T09:17:11Z",
+  "universe_name": "core10_etf",
+  "assets": [
+    "SPY",
+    "VEA",
+    "VWO",
+    "IEF",
+    "SHY",
+    "TIP",
+    "LQD",
+    "VNQ",
+    "GLD",
+    "DBC"
+  ],
+  "date_start": "2017-01-01",
+  "date_end": "2020-12-31",
+  "rebalance_frequency": "monthly",
+  "cov_estimator": "ledoit_wolf_252d",
+  "strategies": [
+    "EW",
+    "GMV",
+    "CtR-only",
+    "MDP",
+    "CtB-only",
+    "Main"
+  ],
+  "main_params": {
+    "delta": 0.03,
+    "eta": 0.02,
+    "gamma": 0.001,
+    "rho": 100.0
+  },
+  "status": "success"
+}
