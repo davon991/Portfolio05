@@ -1,0 +1,5 @@
+date,strategy,converged,iterations_pg,iterations_newton,kkt_residual,fallback_used,active_free_dim,status,objective_value,run_id,run_type,scope,date_start,date_end
+2021-10-29,Main,1,149,1,6.695095065668971e-05,1,10,success,0.0015051470766996,full__main__test__20260419__01,full,,2021-01-01,2025-12-31
+2025-04-30,CtR-only,1,233,1,1.4410836501380846e-06,1,10,success,0.0002801263961253,full__main__test__20260419__01,full,,2021-01-01,2025-12-31
+2025-04-30,Main,1,163,1,0.0001025573408784,1,10,success,0.0035424548853503,full__main__test__20260419__01,full,,2021-01-01,2025-12-31
+2025-04-30,CtR-only,1,233,1,1.4410836501380846e-06,1,10,success,0.0002801263961253,full__robust__d04__20260419__01,full,,2021-01-01,2025-12-31
