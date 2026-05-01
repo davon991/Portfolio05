@@ -1,0 +1,24 @@
+{
+  "figure_id": "Figure 8.4",
+  "title": "Cumulative return and drawdown",
+  "source_files": [
+    "results/runs/full__main__test__20260419__01/analysis/monthly_returns.csv"
+  ],
+  "x_field": "date",
+  "y_fields": [
+    "wealth",
+    "drawdown"
+  ],
+  "group_field": "strategy",
+  "strategies": [
+    "Main",
+    "EW",
+    "GMV",
+    "CtR-only"
+  ],
+  "outputs": {
+    "png": "fig_8_4_cumret_drawdown.png",
+    "pdf": "fig_8_4_cumret_drawdown.pdf",
+    "figdata_csv": "figdata_8_4_cumret_drawdown.csv"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "figure_id": "Figure 8.2",
+  "title": "Rolling structural comparison: Main vs CtR-only",
+  "source_files": [
+    "results/runs/full__main__test__20260419__01/analysis/dr_db_timeseries.csv",
+    "results/runs/full__main__test__20260419__01/analysis/objective_terms.csv"
+  ],
+  "x_field": "date",
+  "y_fields": [
+    "D_B",
+    "D_R"
+  ],
+  "group_field": "strategy",
+  "auxiliary_field": "main_band_active",
+  "strategies": [
+    "Main",
+    "CtR-only"
+  ],
+  "outputs": {
+    "png": "fig_8_2_rolling_drdb.png",
+    "pdf": "fig_8_2_rolling_drdb.pdf",
+    "figdata_csv": "figdata_8_2_rolling_drdb.csv"
+  }
+}

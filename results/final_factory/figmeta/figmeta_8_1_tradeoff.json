@@ -1,0 +1,21 @@
+{
+  "figure_id": "Figure 8.1",
+  "title": "Main trade-off map",
+  "source_files": [
+    "results/runs/full__main__test__20260419__01/analysis/summary_metrics.csv"
+  ],
+  "x_field": "db_mean",
+  "y_field": "dr_mean",
+  "size_field": "bubble_size",
+  "group_field": "strategy",
+  "annotated_strategies": [
+    "Main",
+    "CtR-only",
+    "CtB-only"
+  ],
+  "outputs": {
+    "png": "fig_8_1_tradeoff.png",
+    "pdf": "fig_8_1_tradeoff.pdf",
+    "figdata_csv": "figdata_8_1_tradeoff.csv"
+  }
+}

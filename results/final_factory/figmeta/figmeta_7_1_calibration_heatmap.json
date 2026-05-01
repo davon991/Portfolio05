@@ -1,0 +1,23 @@
+{
+  "figure_id": "Figure 7.1",
+  "title": "Validation calibration heatmap",
+  "source_files": [
+    "results/runs/calibration__main__val__20260419__01/analysis/calibration_summary.csv"
+  ],
+  "x_field": "eta",
+  "y_field": "delta",
+  "value_field": "db_mean",
+  "annotation_fields": [
+    "dr_mean",
+    "turnover_mean"
+  ],
+  "highlight_rule": {
+    "delta": 0.02,
+    "eta": 0.05
+  },
+  "outputs": {
+    "png": "fig_7_1_calibration_heatmap.png",
+    "pdf": "fig_7_1_calibration_heatmap.pdf",
+    "figdata_csv": "figdata_7_1_calibration_heatmap.csv"
+  }
+}

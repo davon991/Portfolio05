@@ -1,0 +1,20 @@
+{
+  "figure_id": "Figure 8.3",
+  "title": "Capital allocation vs CtR contribution (Main, latest rebalance)",
+  "source_files": [
+    "results/runs/full__main__test__20260419__01/analysis/weights.csv",
+    "results/runs/full__main__test__20260419__01/analysis/ctr_long.csv"
+  ],
+  "x_fields": [
+    "weight",
+    "ctr_share"
+  ],
+  "y_field": "asset",
+  "snapshot_date": "2025-11-28T00:00:00",
+  "strategy": "Main",
+  "outputs": {
+    "png": "fig_8_3_capital_vs_contribution.png",
+    "pdf": "fig_8_3_capital_vs_contribution.pdf",
+    "figdata_csv": "figdata_8_3_capital_vs_contribution.csv"
+  }
+}
